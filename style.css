@@ -1,0 +1,447 @@
+/* add your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+body{
+	background-color: #e0e0e0;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-image: url("resource/Paper_Tear.png");
+	background-repeat: no-repeat;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Grid settings of first screen*/
+.toolbar { grid-area: header; 
+	background-image: url("resource/Grunge.png");
+	background-repeat: no-repeat;
+	background-position: 200px 0px;
+}
+.text1 { grid-area: main; 
+	background-image: url("resource/Stroke1.png");
+	background-repeat: no-repeat;
+	background-position: 600px 5px;
+}
+.image-artist { grid-area: right; }
+.text2 { grid-area: footer; }
+
+.firstscreen {
+  display: grid;
+  grid-template-areas:
+    'header header header header header right right'
+    'main main main main main right right'
+    'footer footer footer footer footer footer footer';
+  gap: 0px;
+  padding: 0px;
+  grid-template-columns: auto;
+ 
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+/*Settings of toolbar*/
+.logo1 {
+	padding: 10px 100px 10px 50px;
+}
+
+.navigation-item {
+	padding: 50px;
+}
+
+h4.navigation-item:hover {
+	color: #831adc;
+}
+
+#logo {
+	padding-left: 100px;
+}
+
+
+/*Settings of text1*/
+#main-title {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title-strip {
+	font-size: 100px; 
+}
+
+#title-text {
+	line-height: 1;
+}
+
+.arrow {
+	width: 30px;
+	height : 30px;
+}
+
+.paragraph {
+	font-family: 'Monda', sans-serif;
+	text-align: justify;
+}
+
+.on-gray {
+	font-weight: bold;
+	color: #831adc;
+}
+
+#text1-table {
+	margin-left: 150px;
+	margin-right: auto;
+}
+
+.text1-content {
+	width: 450px;
+}
+
+p.text1-content {
+	text-align: center;
+}
+
+#arow1 {
+	padding-right: 150px;
+}
+
+#header1 {
+	background-color: black;
+	color: #e0e0e0;
+	height: 25px;
+	width: 350px;
+	transform: rotate(-5deg);
+	text-align: center;
+	line-height: 2;
+	vertical-align: middle;
+}
+
+#header2 {
+	transform: rotate(-3deg);
+	text-align: center;
+	background-color: #831adc;
+	color: #e0e0e0;
+	height: 25px;
+	width: 290px;
+	line-height: 2;
+	vertical-align: middle;
+	margin-left: 150px;
+}
+
+
+/*Settings of image-artist*/
+.image-artist { 
+	filter: grayscale(100%); 
+	width: auto;
+	height: auto;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border: 0px;
+}
+
+#image-artist {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: auto;
+	height: auto;
+}
+
+.photo {
+	margin-top: 0px; 
+	margin-top: 0px;
+}
+
+/*Settings of text2*/
+.text2 { background-color: #831adc; 
+	margin-top: 0px; 
+	margin-top: 0px; 
+	background-image: url("resource/Stroke.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.violet-strip {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.on-violet {
+	font-weight: bold;
+	color: #e0e0e0;
+}
+
+button.on-violet {
+	background-color: #831adc;
+	border-color: #e0e0e0;
+	color: #e0e0e0;
+	margin-bottom: 10px;
+}
+
+.paragraph-and-button {
+	width: 350px;
+	padding: 20px 20px 20px 20px;
+}
+
+.middle-title {
+	padding: 20px 20px 20px 20px;
+	font-family: 'Staatliches', cursive;
+	font-size: 50px;
+	line-height: 1;
+}
+
+.party {
+	color: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+/*Settings of Reserve Ticket block*/
+button {
+	font-family: 'Monda', sans-serif;
+	font-weight: bold;
+		
+	border-width: 2px;	
+	border-style: solid;
+	border-color: #831adc;
+	border-radius: 50px;
+	
+	text-align: center;
+	font-size: 11px;
+	color: #831adc;
+	padding: 4px 50px 4px 50px;
+	
+	cursor: pointer;
+}
+
+div.reserve-ticket {
+	margin: 0px;
+	padding: 0px;
+}
+
+#arrow2 {
+	transform: rotate(-90deg);
+}
+
+#ticket-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#date {
+	margin-left: auto;
+	margin-right: 100px;
+}
+
+#date-description {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td.paragraph {
+	width: 450px;
+	padding: 10px 20px 40px 20px;
+}
+
+td.bodytext {
+	padding: 40px 20px 10px 20px;
+}
+
+#photo-small {
+	max-width: 100%;
+	filter: grayscale(100%);
+	margin: 0px;
+	padding: 0px;
+}
+
+#photo-big {
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.filter {
+            position: relative;
+            display: block;
+        }
+
+.filter::after {
+            content: "";
+            position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: #9913e1;
+              opacity: 0.5;
+        }
+
+#img-table {
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.img-table {
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+}
+
+span.reserve {
+	color: #831adc;
+}
+
+td.photo-left {
+	width: 557px;
+}
+
+#photo-left {
+	width: 557px;
+}
+
+.content-table {
+	margin: 0px;
+	padding: 0px;
+}
+
+#reserve-heading {
+	text-align: center;
+	background-image: url("resource/Stroke3.png");
+	background-repeat: no-repeat;
+	background-position: 400px 210px; 
+}
+
+.reserve-heading {
+	font-size: 70px;
+	font-family: 'Staatliches', cursive;
+}
+
+#header3 {
+	background-color: black;
+	color: #e0e0e0;
+	height: 25px;
+	width: 350px;
+	transform: rotate(-7deg);
+	text-align: center;
+	line-height: 2;
+	vertical-align: middle;
+	margin-left: 150px;
+}
+
+#header4 {
+	transform: rotate(1deg);
+	text-align: center;
+	background-color: #831adc;
+	color: #e0e0e0;
+	height: 25px;
+	width: 290px;
+	line-height: 2;
+	vertical-align: middle;
+}
+
+img.row-images {
+	filter: grayscale(100%);
+	width: 100%;
+}
+
+.row-images {
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Settings of footer*/
+.footer {
+	padding: 10px 300px 10px 100px;
+	background: url("resource/Paper_Tear2.png")no-repeat right bottom, url("resource/Stroke2.png") no-repeat left bottom;
+}
+
+table.footer-table {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border-width: 0px;
+}
+
+td.unordered-list {
+	vertical-align: top;
+}
+
+div.unordered-list {
+	line-height: 2.5;
+}
+
+ul {
+	list-style-type: none;
+}
+
+span.list-header{
+	font-weight: bold;
+	line-height: 0;
+}
+
+li {
+	font-family: 'Monda', sans-serif;
+	padding-left: 0px;
+}
+
+td.logo2 {
+	vertical-align: top;
+	padding-top: 30px;
+}
+
+td.dropdown-menu {
+	vertical-align: top;
+	padding-top: 30px;
+}
+
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu:hover .dropdown-content {display: block;}
